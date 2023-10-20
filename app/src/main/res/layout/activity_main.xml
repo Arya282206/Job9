@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="297dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_dark" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="180dp"
+        android:background="@color/design_default_color_secondary" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:background="@color/design_default_color_secondary" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/design_default_color_secondary" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF8F00"
+        android:fontFamily="@font/useonly"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="7"
+        android:text="Febi Aryadi"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+</FrameLayout>
+
